@@ -102,5 +102,6 @@ LOCAL_C_INCLUDES += $(LOCAL_PATH)/src/asm/ARMV7
 endif
 
 LOCAL_LDLIBS := -ldl -lc -lz -lm -llog
+LOCAL_LDFLAGS += -fPIC
 
 include $(BUILD_SHARED_LIBRARY)
