@@ -7,3 +7,5 @@ AAC编码库VoAACEncoder
   - 复制[VoAACEncoder.java](https://github.com/HaloMartin/VoAACEncoder/blob/master/src/com/sinaapp/bashell/VoAACEncoder.java "VoAACEncoder.java")到指定的包路径(*`com.sinaapp.bashell`*)
   - 使用`VoAACEncoder`类中的三个jni接口进行AAC编码
   
+该项目fork了https://github.com/illuspas/VoAACEncoder ，做了一些修改以适配最新的要求。
+感兴趣可以参考简书文章链接：https://www.jianshu.com/p/f54f0209a3ed
