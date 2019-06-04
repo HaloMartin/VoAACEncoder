@@ -38,5 +38,6 @@ LOCAL_SRC_FILES := libfaac/aacquant.c \
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include/
 
 LOCAL_LDLIBS := -ldl -lc -lz -lm -llog
+LOCAL_LDFLAGS += -fPIC
 
 include $(BUILD_SHARED_LIBRARY)
